@@ -18,12 +18,12 @@
       "timing": "09:30 AM – 07:00 PM",
       "earliestAvailable": "2023-10-13T10:30:00",
       "available": [
-        "Monday to Friday | 9Am to 12Pm",
-        "Sturday | 1Pm to 4Pm"
+        "Monday to Sturday | 9Am to 6Pm"
       ],
       "user": "doctor",
       "rating": 4.5,
-      "phone": "9876543210"
+      "phone": "9876543210",
+      "fees": 800
     },
     {
       "id": "680",
@@ -43,12 +43,12 @@
       "timing": "09:30 AM – 07:00 PM",
       "earliestAvailable": "2023-10-11T14:00:00",
       "available": [
-        "Monday to Friday | 10Am to 1Pm",
-        "Sturday | 2Pm to 5Pm"
+        "Monday to Sturday | 10Am to 7Pm"
       ],
       "user": "doctor",
       "rating": 4.7,
-      "phone": "9876543211"
+      "phone": "9876543211",
+      "fees": 600
     },
     {
       "id": "1239",
@@ -68,12 +68,12 @@
       "timing": "09:30 AM – 07:00 PM",
       "earliestAvailable": "2023-10-10T08:00:00",
       "available": [
-        "Monday to Friday | 8Am to 1Pm",
-        "Sturday | 2Pm to 4Pm"
+        "Monday to Sturday | 8Am to 5Pm"
       ],
       "user": "doctor",
       "rating": 4.9,
-      "phone": "9876543212"
+      "phone": "9876543212",
+      "fees": 1200
     },
     {
       "id": "1099",
@@ -93,12 +93,12 @@
       "timing": "09:30 AM – 07:00 PM",
       "earliestAvailable": "2023-10-14T15:00:00",
       "available": [
-        "Monday to Friday | 10Am to 1Pm",
-        "Sturday | 2Pm to 5Pm"
+        "Monday to Sturday | 10Am to 5Pm"
       ],
       "user": "doctor",
       "rating": 4.8,
-      "phone": "9876543213"
+      "phone": "9876543213",
+      "fees": 700
     },
     {
       "id": "6498",
@@ -118,12 +118,12 @@
       "timing": "10:00 AM – 05:00 PM",
       "earliestAvailable": "2023-10-15T11:00:00",
       "available": [
-        "Monday to Friday | 10Am to 1Pm",
-        "Sunday | 3Pm to 6Pm"
+        "Monday to Sturday | 10Am to 1Pm"
       ],
       "user": "doctor",
       "rating": 4.3,
-      "phone": "9876543214"
+      "phone": "9876543214",
+      "fees": 1500
     },
     {
       "id": "7771",
@@ -143,11 +143,12 @@
       "timing": "11:00 AM – 06:00 PM",
       "earliestAvailable": "2023-10-16T12:30:00",
       "available": [
-        "Tuesday to Saturday | 11Am to 2Pm"
+        "Monday to Saturday | 11Am to 2Pm"
       ],
       "user": "doctor",
       "rating": 4.6,
-      "phone": "9876543215"
+      "phone": "9876543215",
+      "fees": 500
     },
     {
       "id": "8382",
@@ -167,11 +168,12 @@
       "timing": "08:00 AM – 03:00 PM",
       "earliestAvailable": "2023-10-12T09:00:00",
       "available": [
-        "Monday to Friday | 8Am to 12Pm"
+        "Monday to Sturday | 8Am to 12Pm"
       ],
       "user": "doctor",
       "rating": 4.4,
-      "phone": "9876543216"
+      "phone": "9876543216",
+      "fees": 650
     },
     {
       "id": "9942",
@@ -191,12 +193,12 @@
       "timing": "10:00 AM – 04:00 PM",
       "earliestAvailable": "2023-10-18T10:30:00",
       "available": [
-        "Monday to Friday | 10Am to 1Pm",
-        "Saturday | 3Pm to 5Pm"
+        "Monday to Friday | 12Pm to 5Pm"
       ],
       "user": "doctor",
       "rating": 4.2,
-      "phone": "9876543217"
+      "phone": "9876543217",
+      "fees": 900
     },
     {
       "id": "2002",
@@ -220,7 +222,8 @@
       ],
       "user": "doctor",
       "rating": 4.5,
-      "phone": "9876543218"
+      "phone": "9876543218",
+      "fees": 400
     },
     {
       "id": "1055",
@@ -244,7 +247,8 @@
       ],
       "user": "doctor",
       "rating": 4.6,
-      "phone": "9876543219"
+      "phone": "9876543219",
+      "fees": 1000
     }
   ],
   "appointments": [
@@ -253,7 +257,7 @@
       "doctorId": "680",
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
-      "doctorName": "test",
+      "doctorName": "Dr. Aarti Sharma",
       "status": "completed",
       "patient": "riya",
       "gender": "Female",
@@ -264,16 +268,17 @@
       "blood": "A+",
       "triage": "Non Urgent",
       "date": "2025-07-29",
-      "time": "09:30 AM - 09:45 AM",
-      "payment": "Paid"
+      "time": "11:30 AM - 11:45 AM",
+      "payment": "Paid",
+      "rating": 3
     },
     {
       "id": "7273fee6-1fe9-4b79-8841-27997f387ab6",
       "doctorId": "680",
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
-      "doctorName": "test",
-      "status": "cancelled",
+      "doctorName": "Dr. Aarti Sharma",
+      "status": "pending",
       "patient": "riya",
       "gender": "Female",
       "age": "22",
@@ -283,7 +288,7 @@
       "blood": "A-",
       "triage": "Non Urgent",
       "date": "2025-07-30",
-      "time": "10:30 AM - 10:45 AM",
+      "time": "2:30 PM - 3:00 PM",
       "payment": "Paid"
     },
     {
@@ -302,7 +307,7 @@
       "blood": "A+",
       "triage": "Non Urgent",
       "date": "2025-08-01",
-      "time": "10:30 AM - 10:45 AM",
+      "time": "10:00 AM - 10:30 AM",
       "payment": "Paid"
     },
     {
@@ -311,7 +316,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
       "doctorName": "Dr. Aarti Sharma",
-      "status": "rejected",
+      "status": "approved",
       "patient": "riya",
       "gender": "Female",
       "age": "22",
@@ -321,8 +326,8 @@
       "blood": "A+",
       "triage": "Urgent",
       "date": "2025-07-24",
-      "time": "10:30 AM - 10:45 AM",
-      "payment": ""
+      "time": "3:30 PM - 4:00 PM",
+      "payment": "Not paid"
     },
     {
       "id": "b68b877b-ae52-48cc-b5db-595dda2da099",
@@ -330,7 +335,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download4.jpg",
       "doctorName": "Dr. Kavita Mehra",
-      "status": "aapproved",
+      "status": "cancelled",
       "patient": "riya shah",
       "gender": "Female",
       "age": "22",
@@ -341,7 +346,8 @@
       "triage": "Urgent",
       "date": "2025-08-07",
       "time": "11:30 AM - 11:45 AM",
-      "payment": "Paid"
+      "payment": "Paid",
+      "reason": "no longer needed"
     },
     {
       "id": "e74a15e9-266b-46cd-aef3-fd820dbf2ad9",
@@ -349,7 +355,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
       "doctorName": "Dr. Aarti Sharma",
-      "status": "pending",
+      "status": "cancelled",
       "patient": "riya",
       "gender": "Female",
       "age": "22",
@@ -358,9 +364,10 @@
       "address": "Dhanbad, Jharkhand",
       "blood": "A+",
       "triage": "Non Urgent",
-      "date": "2025-08-01",
-      "time": "09:30 AM - 09:45 AM",
-      "payment": "Not paid"
+      "date": "2025-08-03",
+      "time": "10:30 AM - 11:00 AM",
+      "payment": "Not paid",
+      "reason": "no longer need"
     },
     {
       "id": "04388733-6fcd-44aa-bcf3-b58f65153ec4",
@@ -368,7 +375,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
       "doctorName": "Dr. Aarti Sharma",
-      "status": "pending",
+      "status": "rejected",
       "patient": "riya",
       "gender": "Female",
       "age": "22",
@@ -396,9 +403,49 @@
       "address": "pune",
       "blood": "A-",
       "triage": "Non Urgent",
-      "date": "2025-08-07",
-      "time": "10:00 AM - 10:15 AM",
+      "date": "2025-08-09",
+      "time": "11:00 AM - 11:30 AM",
       "payment": "Paid"
+    },
+    {
+      "id": "3becae93-79c0-41ee-98f4-73ccce14fa65",
+      "doctorId": "680",
+      "patientId": "0121",
+      "doctorImage": "/images/download2.jpg",
+      "doctorName": "Dr. Aarti Sharma",
+      "status": "pending",
+      "patient": "Alice Andrew",
+      "gender": "Male",
+      "age": "24",
+      "diagnosis": "head ache",
+      "phone": "6425957790",
+      "address": "pune",
+      "blood": "O-",
+      "triage": "Non Urgent",
+      "date": "2025-09-03",
+      "time": "10:00 AM - 10:30 AM",
+      "payment": "Paid",
+      "rating": 0
+    },
+    {
+      "id": "8674d0fe-ef76-47c3-a00d-11eae74d1e2d",
+      "doctorId": "7771",
+      "patientId": "0121",
+      "doctorImage": "/images/download4.jpg",
+      "doctorName": "Dr. Kavita Mehra",
+      "status": "pending",
+      "patient": "riya shah",
+      "gender": "Female",
+      "age": "22",
+      "diagnosis": "skin achne",
+      "phone": "9876543690",
+      "address": "pune",
+      "blood": "AB+",
+      "triage": "Urgent",
+      "date": "2025-08-12",
+      "time": "11:00 AM - 11:30 AM",
+      "payment": "Paid",
+      "rating": 0
     }
   ],
   "patients": [
