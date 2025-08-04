@@ -258,7 +258,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
       "doctorName": "Dr. Aarti Sharma",
-      "status": "completed",
+      "status": "pending",
       "patient": "riya",
       "gender": "Female",
       "age": "22",
@@ -267,7 +267,7 @@
       "address": "Dhanbad, Jharkhand",
       "blood": "A+",
       "triage": "Non Urgent",
-      "date": "2025-07-29",
+      "date": "2025-08-12",
       "time": "11:30 AM - 11:45 AM",
       "payment": "Paid",
       "rating": 3
@@ -287,8 +287,8 @@
       "address": "Dhanbad, Jharkhand",
       "blood": "A-",
       "triage": "Non Urgent",
-      "date": "2025-07-30",
-      "time": "2:30 PM - 3:00 PM",
+      "date": "2025-08-14",
+      "time": "11:00 AM - 11:30 AM",
       "payment": "Paid"
     },
     {
@@ -316,7 +316,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
       "doctorName": "Dr. Aarti Sharma",
-      "status": "approved",
+      "status": "rejected",
       "patient": "riya",
       "gender": "Female",
       "age": "22",
@@ -326,7 +326,7 @@
       "blood": "A+",
       "triage": "Urgent",
       "date": "2025-07-24",
-      "time": "3:30 PM - 4:00 PM",
+      "time": "03:00 PM - 03:30 PM",
       "payment": "Not paid"
     },
     {
@@ -375,7 +375,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
       "doctorName": "Dr. Aarti Sharma",
-      "status": "rejected",
+      "status": "reschedule",
       "patient": "riya",
       "gender": "Female",
       "age": "22",
@@ -384,7 +384,7 @@
       "address": "Dhanbad, Jharkhand",
       "blood": "O+",
       "triage": "Emergency",
-      "date": "2025-08-02",
+      "date": "2025-08-01",
       "time": "11:30 AM - 11:45 AM",
       "payment": "Not paid"
     },
@@ -413,7 +413,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
       "doctorName": "Dr. Aarti Sharma",
-      "status": "pending",
+      "status": "completed",
       "patient": "Alice Andrew",
       "gender": "Male",
       "age": "24",
@@ -423,7 +423,7 @@
       "blood": "O-",
       "triage": "Non Urgent",
       "date": "2025-09-03",
-      "time": "10:00 AM - 10:30 AM",
+      "time": "1:00 PM - 1:30 PM",
       "payment": "Paid",
       "rating": 0
     },
