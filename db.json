@@ -15,10 +15,17 @@
         "Arthroscopy",
         "Joint Replacement"
       ],
-      "timing": "09:30 AM – 07:00 PM",
-      "earliestAvailable": "2023-10-13T10:30:00",
+      "startTime": "08:00",
+      "endTime": "15:30",
+      "timing": "8:00 AM - 3:30 PM",
+      "earliestAvailable": "08:10 AM",
       "available": [
-        "Monday to Sturday | 9Am to 6Pm"
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
       ],
       "user": "doctor",
       "rating": 4.5,
@@ -40,10 +47,15 @@
         "Child Growth",
         "Nutritional Counseling"
       ],
-      "timing": "09:30 AM – 07:00 PM",
-      "earliestAvailable": "2023-10-11T14:00:00",
+      "startTime": "12:00",
+      "endTime": "18:30",
+      "timing": "12:00 PM - 6:30 PM",
+      "earliestAvailable": "12:00 PM",
       "available": [
-        "Monday to Sturday | 10Am to 7Pm"
+        "Mon",
+        "Tue",
+        "Fri",
+        "Sat"
       ],
       "user": "doctor",
       "rating": 4.7,
@@ -65,10 +77,16 @@
         "Heart Checkup",
         "Hypertension"
       ],
-      "timing": "09:30 AM – 07:00 PM",
-      "earliestAvailable": "2023-10-10T08:00:00",
+      "startTime": "09:30",
+      "endTime": "19:30",
+      "timing": "9:30 AM - 7:00 PM",
+      "earliestAvailable": "09:30 AM",
       "available": [
-        "Monday to Sturday | 8Am to 5Pm"
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri"
       ],
       "user": "doctor",
       "rating": 4.9,
@@ -90,10 +108,16 @@
         "Menstrual Issues",
         "PCOD"
       ],
-      "timing": "09:30 AM – 07:00 PM",
-      "earliestAvailable": "2023-10-14T15:00:00",
+      "startTime": "09:30",
+      "endTime": "16:30",
+      "timing": "9:30 AM - 4:30 PM",
+      "earliestAvailable": "09:30 AM",
       "available": [
-        "Monday to Sturday | 10Am to 5Pm"
+        "Mon",
+        "Tue",
+        "Wed",
+        "Fri",
+        "Sat"
       ],
       "user": "doctor",
       "rating": 4.8,
@@ -115,10 +139,17 @@
         "Stroke",
         "Dementia"
       ],
-      "timing": "10:00 AM – 05:00 PM",
-      "earliestAvailable": "2023-10-15T11:00:00",
+      "startTime": "10:00",
+      "endTime": "17:00",
+      "timing": "10:00 AM - 5:00 PM",
+      "earliestAvailable": "10:10 AM",
       "available": [
-        "Monday to Sturday | 10Am to 1Pm"
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
       ],
       "user": "doctor",
       "rating": 4.3,
@@ -140,10 +171,15 @@
         "Hair Loss",
         "Skin Allergy"
       ],
-      "timing": "11:00 AM – 06:00 PM",
-      "earliestAvailable": "2023-10-16T12:30:00",
+      "startTime": "11:00",
+      "endTime": "18:00",
+      "timing": "11:00 AM - 6:00 PM",
+      "earliestAvailable": "11:00 AM",
       "available": [
-        "Monday to Saturday | 11Am to 2Pm"
+        "Mon",
+        "Wed",
+        "Fri",
+        "Sat"
       ],
       "user": "doctor",
       "rating": 4.6,
@@ -165,10 +201,17 @@
         "Hearing Loss",
         "Tonsillitis"
       ],
-      "timing": "08:00 AM – 03:00 PM",
-      "earliestAvailable": "2023-10-12T09:00:00",
+      "startTime": "08:00",
+      "endTime": "15:00",
+      "timing": "8:00 AM - 3:00 PM",
+      "earliestAvailable": "08:00 AM",
       "available": [
-        "Monday to Sturday | 8Am to 12Pm"
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
       ],
       "user": "doctor",
       "rating": 4.4,
@@ -190,10 +233,17 @@
         "Glaucoma",
         "Vision Correction"
       ],
-      "timing": "10:00 AM – 04:00 PM",
-      "earliestAvailable": "2023-10-18T10:30:00",
+      "startTime": "10:00",
+      "endTime": "16:00",
+      "timing": "10:00 AM - 4:00 PM",
+      "earliestAvailable": "08:10 AM",
       "available": [
-        "Monday to Friday | 12Pm to 5Pm"
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
       ],
       "user": "doctor",
       "rating": 4.2,
@@ -215,10 +265,17 @@
         "Fever",
         "General Checkup"
       ],
-      "timing": "09:00 AM – 05:00 PM",
-      "earliestAvailable": "2023-10-10T08:30:00",
+      "startTime": "09:00",
+      "endTime": "17:00",
+      "timing": "9:00 AM - 5:00 PM",
+      "earliestAvailable": "08:10 AM",
       "available": [
-        "Everyday | 9Am to 11Am"
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
       ],
       "user": "doctor",
       "rating": 4.5,
@@ -240,15 +297,48 @@
         "Anxiety",
         "Therapy"
       ],
-      "timing": "01:00 PM – 07:00 PM",
-      "earliestAvailable": "2023-10-19T14:00:00",
+      "startTime": "13:00",
+      "endTime": "19:00",
+      "timing": "1:00 PM - 7:00 PM",
+      "earliestAvailable": "08:10 AM",
       "available": [
-        "Monday to Saturday | 1Pm to 4Pm"
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat"
       ],
       "user": "doctor",
       "rating": 4.6,
       "phone": "9876543219",
       "fees": 1000
+    },
+    {
+      "id": "2216",
+      "available": [
+        "Thu",
+        "Sat"
+      ],
+      "name": "sweety",
+      "email": "sweety@gmail.com",
+      "password": "123456",
+      "specialization": "Pediatrician",
+      "qualification": "MBBS, DCH",
+      "specialties": [
+        "child growth",
+        " child thinking"
+      ],
+      "phone": "9876543690",
+      "fees": "400",
+      "startTime": "12:15",
+      "endTime": "17:25",
+      "timing": "12:15 PM - 5:25 PM",
+      "earliestAvailable": "12:20",
+      "description": "Providing advanced care for all kids.",
+      "user": "doctor",
+      "rating": 3.5,
+      "availableToday": true
     }
   ],
   "appointments": [
@@ -258,7 +348,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
       "doctorName": "Dr. Aarti Sharma",
-      "status": "pending",
+      "status": "approved",
       "patient": "riya",
       "gender": "Female",
       "age": "22",
@@ -394,7 +484,7 @@
       "patientId": "0121",
       "doctorImage": "/images/download2.jpg",
       "doctorName": "Dr. Aarti Sharma",
-      "status": "approved",
+      "status": "completed",
       "patient": "riya shah",
       "gender": "Female",
       "age": "22",
@@ -476,6 +566,218 @@
       "phone": "9876543690",
       "bloodGroup": "A+",
       "gender": "Female"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "1",
+      "patientName": "John Doe",
+      "medicineName": "Amoxicillin",
+      "dosage": "500mg",
+      "duration": "5 days",
+      "notes": "Take after meals",
+      "appointmentId": "APT-1001",
+      "createdAt": "2025-08-04T09:15:00Z"
+    },
+    {
+      "id": "2",
+      "patientName": "Jane Smith",
+      "medicineName": "Paracetamol",
+      "dosage": "650mg",
+      "duration": "5 days",
+      "notes": "Take when fever exceeds 101°F",
+      "appointmentId": "APT-1002",
+      "createdAt": "2025-08-06T09:20:00Z"
+    },
+    {
+      "id": "3",
+      "patientName": "Robert Wilson",
+      "medicineName": "Metformin",
+      "dosage": "500mg",
+      "duration": "30 days",
+      "notes": "Take in the morning before breakfast",
+      "appointmentId": "APT-1003",
+      "createdAt": "2025-08-05T14:30:00Z"
+    },
+    {
+      "id": "4",
+      "patientName": "Alice Andrew",
+      "medicineName": "Vitamin D",
+      "dosage": "1000 IU",
+      "duration": "15 days",
+      "notes": "Take with milk",
+      "appointmentId": "APT-1004",
+      "createdAt": "2025-08-05T14:32:00Z"
+    },
+    {
+      "id": "5",
+      "patientName": "Robert Wilson",
+      "medicineName": "Losartan",
+      "dosage": "50mg",
+      "duration": "60 days",
+      "notes": "Take every morning",
+      "appointmentId": "APT-1005",
+      "createdAt": "2025-08-03T11:00:00Z"
+    },
+    {
+      "id": "6",
+      "patientName": "Emily Davis",
+      "medicineName": "Ibuprofen",
+      "dosage": "400mg",
+      "duration": "3 days",
+      "notes": "After food",
+      "appointmentId": "APT-1006",
+      "createdAt": "2025-08-06T10:00:00Z"
+    },
+    {
+      "id": "7",
+      "patientName": "Daniel Thompson",
+      "medicineName": "Cetirizine",
+      "dosage": "10mg",
+      "duration": "7 days",
+      "notes": "Once at night",
+      "appointmentId": "APT-1007",
+      "createdAt": "2025-08-06T11:10:00Z"
+    },
+    {
+      "id": "8",
+      "patientName": "Olivia Martinez",
+      "medicineName": "Pantoprazole",
+      "dosage": "40mg",
+      "duration": "10 days",
+      "notes": "Before breakfast",
+      "appointmentId": "APT-1008",
+      "createdAt": "2025-08-06T12:15:00Z"
+    },
+    {
+      "id": "9",
+      "patientName": "William Johnson",
+      "medicineName": "Azithromycin",
+      "dosage": "500mg",
+      "duration": "3 days",
+      "notes": "One tablet daily",
+      "appointmentId": "APT-1009",
+      "createdAt": "2025-08-06T13:00:00Z"
+    },
+    {
+      "id": "10",
+      "patientName": "Sophia Taylor",
+      "medicineName": "Calcium Carbonate",
+      "dosage": "500mg",
+      "duration": "20 days",
+      "notes": "Take after meals",
+      "appointmentId": "APT-1010",
+      "createdAt": "2025-08-06T13:45:00Z"
+    },
+    {
+      "id": "11",
+      "patientName": "Daniel Thompson",
+      "medicineName": "Doxycycline",
+      "dosage": "100mg",
+      "duration": "7 days",
+      "notes": "Twice daily",
+      "appointmentId": "APT-1011",
+      "createdAt": "2025-08-06T14:00:00Z"
+    },
+    {
+      "id": "12",
+      "patientName": "Charlotte Moore",
+      "medicineName": "Levothyroxine",
+      "dosage": "50mcg",
+      "duration": "30 days",
+      "notes": "Empty stomach",
+      "appointmentId": "APT-1012",
+      "createdAt": "2025-08-06T14:15:00Z"
+    },
+    {
+      "id": "13",
+      "patientName": "Daniel Thompson",
+      "medicineName": "Omeprazole",
+      "dosage": "20mg",
+      "duration": "14 days",
+      "notes": "Before meals",
+      "appointmentId": "APT-1013",
+      "createdAt": "2025-08-06T14:30:00Z"
+    },
+    {
+      "id": "14",
+      "patientName": "Isabella Harris",
+      "medicineName": "Iron Supplement",
+      "dosage": "325mg",
+      "duration": "30 days",
+      "notes": "Take with water",
+      "appointmentId": "APT-1014",
+      "createdAt": "2025-08-06T14:45:00Z"
+    },
+    {
+      "id": "15",
+      "patientName": "Henry Clark",
+      "medicineName": "Hydrochlorothiazide",
+      "dosage": "25mg",
+      "duration": "15 days",
+      "notes": "Morning dose",
+      "appointmentId": "APT-1015",
+      "createdAt": "2025-08-06T15:00:00Z"
+    },
+    {
+      "id": "16",
+      "patientName": "Amelia Walker",
+      "medicineName": "Montelukast",
+      "dosage": "10mg",
+      "duration": "10 days",
+      "notes": "Night dose",
+      "appointmentId": "APT-1016",
+      "createdAt": "2025-08-06T15:15:00Z"
+    },
+    {
+      "id": "17",
+      "patientName": "Lucas Hall",
+      "medicineName": "Insulin",
+      "dosage": "10 units",
+      "duration": "Daily",
+      "notes": "Before meals",
+      "appointmentId": "APT-1017",
+      "createdAt": "2025-08-06T15:30:00Z"
+    },
+    {
+      "id": "18",
+      "patientName": "Mia Allen",
+      "medicineName": "Clarithromycin",
+      "dosage": "500mg",
+      "duration": "7 days",
+      "notes": "After meals",
+      "appointmentId": "APT-1018",
+      "createdAt": "2025-08-06T15:45:00Z"
+    },
+    {
+      "id": "19",
+      "patientName": "Alexander Young",
+      "medicineName": "Simvastatin",
+      "dosage": "20mg",
+      "duration": "60 days",
+      "notes": "At night",
+      "appointmentId": "APT-1019",
+      "createdAt": "2025-08-06T16:00:00Z"
+    },
+    {
+      "id": "20",
+      "patientName": "Evelyn King",
+      "medicineName": "Prednisone",
+      "dosage": "10mg",
+      "duration": "5 days",
+      "notes": "After food",
+      "appointmentId": "APT-1020",
+      "createdAt": "2025-08-06T16:15:00Z"
+    },
+    {
+      "id": "ec60",
+      "medicineName": "paracetamol",
+      "dosage": "1 tablet before sleeping at night",
+      "duration": "5 days",
+      "notes": "",
+      "appointmentId": "ba861f40-cb99-43c6-af8f-05f82bcd9508",
+      "patientName": "riya shah",
+      "createdAt": "2025-08-06T14:03:04.192Z"
     }
   ]
 }
