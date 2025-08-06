@@ -570,17 +570,8 @@
   ],
   "prescriptions": [
     {
-      "id": "1e3",
-      "patientName": "John Doe",
-      "medicineName": "Amoxicillin",
-      "dosage": "500mg",
-      "duration": "5 days",
-      "notes": "Take after meals",
-      "appointmentId": "APT-1001",
-      "createdAt": "2025-08-04T09:15:00Z"
-    },
-    {
-      "id": "2d3g",
+      "id": "2",
+      "doctorId": "680",
       "patientName": "Jane Smith",
       "medicineName": "Paracetamol",
       "dosage": "650mg",
@@ -590,17 +581,19 @@
       "createdAt": "2025-08-06T09:20:00Z"
     },
     {
-      "id": "33f",
+      "id": "3",
+      "doctorId": "680",
       "patientName": "Robert Wilson",
       "medicineName": "Metformin",
       "dosage": "500mg",
-      "duration": "30 days",
+      "duration": "60 days",
       "notes": "Take in the morning before breakfast",
       "appointmentId": "APT-1003",
       "createdAt": "2025-08-05T14:30:00Z"
     },
     {
-      "id": "4x",
+      "id": "4",
+      "doctorId": "680",
       "patientName": "Alice Andrew",
       "medicineName": "Vitamin D",
       "dosage": "1000 IU",
@@ -610,7 +603,8 @@
       "createdAt": "2025-08-05T14:32:00Z"
     },
     {
-      "id": "5tr",
+      "id": "5",
+      "doctorId": "680",
       "patientName": "Robert Wilson",
       "medicineName": "Losartan",
       "dosage": "50mg",
@@ -620,7 +614,8 @@
       "createdAt": "2025-08-03T11:00:00Z"
     },
     {
-      "id": "6l",
+      "id": "6",
+      "doctorId": "680",
       "patientName": "Emily Davis",
       "medicineName": "Ibuprofen",
       "dosage": "400mg",
@@ -630,7 +625,8 @@
       "createdAt": "2025-08-06T10:00:00Z"
     },
     {
-      "id": "p7",
+      "id": "7",
+      "doctorId": "680",
       "patientName": "Daniel Thompson",
       "medicineName": "Cetirizine",
       "dosage": "10mg",
@@ -640,7 +636,8 @@
       "createdAt": "2025-08-06T11:10:00Z"
     },
     {
-      "id": "a8e",
+      "id": "8",
+      "doctorId": "680",
       "patientName": "Olivia Martinez",
       "medicineName": "Pantoprazole",
       "dosage": "40mg",
@@ -650,7 +647,8 @@
       "createdAt": "2025-08-06T12:15:00Z"
     },
     {
-      "id": "9at",
+      "id": "9",
+      "doctorId": "680",
       "patientName": "William Johnson",
       "medicineName": "Azithromycin",
       "dosage": "500mg",
@@ -660,7 +658,8 @@
       "createdAt": "2025-08-06T13:00:00Z"
     },
     {
-      "id": "1t0da",
+      "id": "10",
+      "doctorId": "680",
       "patientName": "Sophia Taylor",
       "medicineName": "Calcium Carbonate",
       "dosage": "500mg",
@@ -670,7 +669,8 @@
       "createdAt": "2025-08-06T13:45:00Z"
     },
     {
-      "id": "11gs",
+      "id": "11",
+      "doctorId": "680",
       "patientName": "Daniel Thompson",
       "medicineName": "Doxycycline",
       "dosage": "100mg",
@@ -680,7 +680,8 @@
       "createdAt": "2025-08-06T14:00:00Z"
     },
     {
-      "id": "1fa2",
+      "id": "12",
+      "doctorId": "680",
       "patientName": "Charlotte Moore",
       "medicineName": "Levothyroxine",
       "dosage": "50mcg",
@@ -690,7 +691,8 @@
       "createdAt": "2025-08-06T14:15:00Z"
     },
     {
-      "id": "a1g3",
+      "id": "13",
+      "doctorId": "680",
       "patientName": "Daniel Thompson",
       "medicineName": "Omeprazole",
       "dosage": "20mg",
@@ -700,7 +702,8 @@
       "createdAt": "2025-08-06T14:30:00Z"
     },
     {
-      "id": "14et",
+      "id": "14",
+      "doctorId": "680",
       "patientName": "Isabella Harris",
       "medicineName": "Iron Supplement",
       "dosage": "325mg",
@@ -710,7 +713,8 @@
       "createdAt": "2025-08-06T14:45:00Z"
     },
     {
-      "id": "15df",
+      "id": "15",
+      "doctorId": "680",
       "patientName": "Henry Clark",
       "medicineName": "Hydrochlorothiazide",
       "dosage": "25mg",
@@ -720,7 +724,8 @@
       "createdAt": "2025-08-06T15:00:00Z"
     },
     {
-      "id": "ef16",
+      "id": "16",
+      "doctorId": "680",
       "patientName": "Amelia Walker",
       "medicineName": "Montelukast",
       "dosage": "10mg",
@@ -730,7 +735,8 @@
       "createdAt": "2025-08-06T15:15:00Z"
     },
     {
-      "id": "1a7",
+      "id": "17",
+      "doctorId": "680",
       "patientName": "Lucas Hall",
       "medicineName": "Insulin",
       "dosage": "10 units",
@@ -740,7 +746,8 @@
       "createdAt": "2025-08-06T15:30:00Z"
     },
     {
-      "id": "1df8",
+      "id": "18",
+      "doctorId": "680",
       "patientName": "Mia Allen",
       "medicineName": "Clarithromycin",
       "dosage": "500mg",
@@ -750,7 +757,8 @@
       "createdAt": "2025-08-06T15:45:00Z"
     },
     {
-      "id": "1b9",
+      "id": "19",
+      "doctorId": "680",
       "patientName": "Alexander Young",
       "medicineName": "Simvastatin",
       "dosage": "20mg",
@@ -760,7 +768,8 @@
       "createdAt": "2025-08-06T16:00:00Z"
     },
     {
-      "id": "20a",
+      "id": "20",
+      "doctorId": "680",
       "patientName": "Evelyn King",
       "medicineName": "Prednisone",
       "dosage": "10mg",
@@ -771,6 +780,7 @@
     },
     {
       "id": "ec60",
+      "doctorId": "680",
       "medicineName": "paracetamol",
       "dosage": "1 tablet before sleeping at night",
       "duration": "5 days",
@@ -778,6 +788,39 @@
       "appointmentId": "ba861f40-cb99-43c6-af8f-05f82bcd9508",
       "patientName": "riya shah",
       "createdAt": "2025-08-06T14:03:04.192Z"
+    },
+    {
+      "id": "ab21",
+      "medicineName": "Amoxicillin",
+      "dosage": "500mg",
+      "duration": "6 days",
+      "notes": "take after sleeping",
+      "doctorId": "680",
+      "appointmentId": "3becae93-79c0-41ee-98f4-73ccce14fa65",
+      "patientName": "Alice Andrew",
+      "createdAt": "2025-08-06T16:52:31.856Z"
+    },
+    {
+      "id": "365f",
+      "medicineName": "Amoxicillin",
+      "dosage": "500mg",
+      "duration": "7 days",
+      "notes": "after lunch",
+      "doctorId": "680",
+      "appointmentId": "ba861f40-cb99-43c6-af8f-05f82bcd9508",
+      "patientName": "riya shah",
+      "createdAt": "2025-08-06T17:43:36.153Z"
+    },
+    {
+      "id": "e13e",
+      "medicineName": "Metformin",
+      "dosage": "500mg",
+      "duration": "10 days",
+      "notes": "",
+      "doctorId": "680",
+      "appointmentId": "ba861f40-cb99-43c6-af8f-05f82bcd9508",
+      "patientName": "riya shah",
+      "createdAt": "2025-08-06T19:06:08.947Z"
     }
   ]
 }
