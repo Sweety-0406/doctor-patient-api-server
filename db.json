@@ -350,17 +350,18 @@
       "doctorName": "Dr. Aarti Sharma",
       "status": "approved",
       "patient": "riya",
+      "diagnosis": "head ache",
       "gender": "Female",
       "age": "22",
-      "diagnosis": "head ache",
       "phone": "9876543690",
       "address": "Dhanbad, Jharkhand",
       "blood": "A+",
-      "triage": "Non Urgent",
       "date": "2025-08-12",
       "time": "11:30 AM - 11:45 AM",
+      "triage": "Non Urgent",
       "payment": "Paid",
-      "rating": 3
+      "rating": 3,
+      "isPrescriptionAvailable": false
     },
     {
       "id": "7273fee6-1fe9-4b79-8841-27997f387ab6",
@@ -379,7 +380,8 @@
       "triage": "Non Urgent",
       "date": "2025-08-14",
       "time": "11:00 AM - 11:30 AM",
-      "payment": "Paid"
+      "payment": "Paid",
+      "isPrescriptionAvailable": false
     },
     {
       "id": "f1a8100f-df7d-4a07-b894-cd8d9eb12aa2",
@@ -398,7 +400,8 @@
       "triage": "Non Urgent",
       "date": "2025-08-01",
       "time": "10:00 AM - 10:30 AM",
-      "payment": "Paid"
+      "payment": "Paid",
+      "isPrescriptionAvailable": false
     },
     {
       "id": "63ec9c25-f8b9-4c82-b187-8151cb15ecfa",
@@ -417,7 +420,8 @@
       "triage": "Urgent",
       "date": "2025-07-24",
       "time": "03:00 PM - 03:30 PM",
-      "payment": "Not paid"
+      "payment": "Not paid",
+      "isPrescriptionAvailable": false
     },
     {
       "id": "b68b877b-ae52-48cc-b5db-595dda2da099",
@@ -437,7 +441,8 @@
       "date": "2025-08-07",
       "time": "11:30 AM - 11:45 AM",
       "payment": "Paid",
-      "reason": "no longer needed"
+      "reason": "no longer needed",
+      "isPrescriptionAvailable": false
     },
     {
       "id": "e74a15e9-266b-46cd-aef3-fd820dbf2ad9",
@@ -457,7 +462,8 @@
       "date": "2025-08-03",
       "time": "10:30 AM - 11:00 AM",
       "payment": "Not paid",
-      "reason": "no longer need"
+      "reason": "no longer need",
+      "isPrescriptionAvailable": false
     },
     {
       "id": "04388733-6fcd-44aa-bcf3-b58f65153ec4",
@@ -476,7 +482,8 @@
       "triage": "Emergency",
       "date": "2025-08-01",
       "time": "11:30 AM - 11:45 AM",
-      "payment": "Not paid"
+      "payment": "Not paid",
+      "isPrescriptionAvailable": false
     },
     {
       "id": "ba861f40-cb99-43c6-af8f-05f82bcd9508",
@@ -495,7 +502,9 @@
       "triage": "Non Urgent",
       "date": "2025-08-09",
       "time": "11:00 AM - 11:30 AM",
-      "payment": "Paid"
+      "payment": "Paid",
+      "rating": 4,
+      "isPrescriptionAvailable": true
     },
     {
       "id": "3becae93-79c0-41ee-98f4-73ccce14fa65",
@@ -515,7 +524,8 @@
       "date": "2025-09-03",
       "time": "1:00 PM - 1:30 PM",
       "payment": "Paid",
-      "rating": 0
+      "rating": 0,
+      "isPrescriptionAvailable": true
     },
     {
       "id": "8674d0fe-ef76-47c3-a00d-11eae74d1e2d",
@@ -535,7 +545,8 @@
       "date": "2025-08-12",
       "time": "11:00 AM - 11:30 AM",
       "payment": "Paid",
-      "rating": 0
+      "rating": 0,
+      "isPrescriptionAvailable": false
     }
   ],
   "patients": [
@@ -569,258 +580,69 @@
     }
   ],
   "prescriptions": [
+    
     {
-      "id": "2",
+      "id": "94a3",
+      "diagnosis": "Recurring infection",
+      "medicines": [
+        {
+          "medicineName": "paracetamol",
+          "dosage": "300 mg",
+          "duration": "4days",
+          "notes": ""
+        },
+        {
+          "medicineName": "amoxicillin",
+          "dosage": "400mg",
+          "duration": "7days",
+          "notes": ""
+        }
+      ],
       "doctorId": "680",
-      "patientName": "Jane Smith",
-      "medicineName": "Paracetamol",
-      "dosage": "650mg",
-      "duration": "5 days",
-      "notes": "Take when fever exceeds 101°F",
-      "appointmentId": "APT-1002",
-      "createdAt": "2025-08-06T09:20:00Z"
-    },
-    {
-      "id": "3",
-      "doctorId": "680",
-      "patientName": "Robert Wilson",
-      "medicineName": "Metformin",
-      "dosage": "500mg",
-      "duration": "60 days",
-      "notes": "Take in the morning before breakfast",
-      "appointmentId": "APT-1003",
-      "createdAt": "2025-08-05T14:30:00Z"
-    },
-    {
-      "id": "4",
-      "doctorId": "680",
-      "patientName": "Alice Andrew",
-      "medicineName": "Vitamin D",
-      "dosage": "1000 IU",
-      "duration": "15 days",
-      "notes": "Take with milk",
-      "appointmentId": "APT-1004",
-      "createdAt": "2025-08-05T14:32:00Z"
-    },
-    {
-      "id": "5",
-      "doctorId": "680",
-      "patientName": "Robert Wilson",
-      "medicineName": "Losartan",
-      "dosage": "50mg",
-      "duration": "60 days",
-      "notes": "Take every morning",
-      "appointmentId": "APT-1005",
-      "createdAt": "2025-08-03T11:00:00Z"
-    },
-    {
-      "id": "6",
-      "doctorId": "680",
-      "patientName": "Emily Davis",
-      "medicineName": "Ibuprofen",
-      "dosage": "400mg",
-      "duration": "3 days",
-      "notes": "After food",
-      "appointmentId": "APT-1006",
-      "createdAt": "2025-08-06T10:00:00Z"
-    },
-    {
-      "id": "7",
-      "doctorId": "680",
-      "patientName": "Daniel Thompson",
-      "medicineName": "Cetirizine",
-      "dosage": "10mg",
-      "duration": "7 days",
-      "notes": "Once at night",
-      "appointmentId": "APT-1007",
-      "createdAt": "2025-08-06T11:10:00Z"
-    },
-    {
-      "id": "8",
-      "doctorId": "680",
-      "patientName": "Olivia Martinez",
-      "medicineName": "Pantoprazole",
-      "dosage": "40mg",
-      "duration": "10 days",
-      "notes": "Before breakfast",
-      "appointmentId": "APT-1008",
-      "createdAt": "2025-08-06T12:15:00Z"
-    },
-    {
-      "id": "9",
-      "doctorId": "680",
-      "patientName": "William Johnson",
-      "medicineName": "Azithromycin",
-      "dosage": "500mg",
-      "duration": "3 days",
-      "notes": "One tablet daily",
-      "appointmentId": "APT-1009",
-      "createdAt": "2025-08-06T13:00:00Z"
-    },
-    {
-      "id": "10",
-      "doctorId": "680",
-      "patientName": "Sophia Taylor",
-      "medicineName": "Calcium Carbonate",
-      "dosage": "500mg",
-      "duration": "20 days",
-      "notes": "Take after meals",
-      "appointmentId": "APT-1010",
-      "createdAt": "2025-08-06T13:45:00Z"
-    },
-    {
-      "id": "11",
-      "doctorId": "680",
-      "patientName": "Daniel Thompson",
-      "medicineName": "Doxycycline",
-      "dosage": "100mg",
-      "duration": "7 days",
-      "notes": "Twice daily",
-      "appointmentId": "APT-1011",
-      "createdAt": "2025-08-06T14:00:00Z"
-    },
-    {
-      "id": "12",
-      "doctorId": "680",
-      "patientName": "Charlotte Moore",
-      "medicineName": "Levothyroxine",
-      "dosage": "50mcg",
-      "duration": "30 days",
-      "notes": "Empty stomach",
-      "appointmentId": "APT-1012",
-      "createdAt": "2025-08-06T14:15:00Z"
-    },
-    {
-      "id": "13",
-      "doctorId": "680",
-      "patientName": "Daniel Thompson",
-      "medicineName": "Omeprazole",
-      "dosage": "20mg",
-      "duration": "14 days",
-      "notes": "Before meals",
-      "appointmentId": "APT-1013",
-      "createdAt": "2025-08-06T14:30:00Z"
-    },
-    {
-      "id": "14",
-      "doctorId": "680",
-      "patientName": "Isabella Harris",
-      "medicineName": "Iron Supplement",
-      "dosage": "325mg",
-      "duration": "30 days",
-      "notes": "Take with water",
-      "appointmentId": "APT-1014",
-      "createdAt": "2025-08-06T14:45:00Z"
-    },
-    {
-      "id": "15",
-      "doctorId": "680",
-      "patientName": "Henry Clark",
-      "medicineName": "Hydrochlorothiazide",
-      "dosage": "25mg",
-      "duration": "15 days",
-      "notes": "Morning dose",
-      "appointmentId": "APT-1015",
-      "createdAt": "2025-08-06T15:00:00Z"
-    },
-    {
-      "id": "16",
-      "doctorId": "680",
-      "patientName": "Amelia Walker",
-      "medicineName": "Montelukast",
-      "dosage": "10mg",
-      "duration": "10 days",
-      "notes": "Night dose",
-      "appointmentId": "APT-1016",
-      "createdAt": "2025-08-06T15:15:00Z"
-    },
-    {
-      "id": "17",
-      "doctorId": "680",
-      "patientName": "Lucas Hall",
-      "medicineName": "Insulin",
-      "dosage": "10 units",
-      "duration": "Daily",
-      "notes": "Before meals",
-      "appointmentId": "APT-1017",
-      "createdAt": "2025-08-06T15:30:00Z"
-    },
-    {
-      "id": "18",
-      "doctorId": "680",
-      "patientName": "Mia Allen",
-      "medicineName": "Clarithromycin",
-      "dosage": "500mg",
-      "duration": "7 days",
-      "notes": "After meals",
-      "appointmentId": "APT-1018",
-      "createdAt": "2025-08-06T15:45:00Z"
-    },
-    {
-      "id": "19",
-      "doctorId": "680",
-      "patientName": "Alexander Young",
-      "medicineName": "Simvastatin",
-      "dosage": "20mg",
-      "duration": "60 days",
-      "notes": "At night",
-      "appointmentId": "APT-1019",
-      "createdAt": "2025-08-06T16:00:00Z"
-    },
-    {
-      "id": "20",
-      "doctorId": "680",
-      "patientName": "Evelyn King",
-      "medicineName": "Prednisone",
-      "dosage": "10mg",
-      "duration": "5 days",
-      "notes": "After food",
-      "appointmentId": "APT-1020",
-      "createdAt": "2025-08-06T16:15:00Z"
-    },
-    {
-      "id": "ec60",
-      "doctorId": "680",
-      "medicineName": "paracetamol",
-      "dosage": "1 tablet before sleeping at night",
-      "duration": "5 days",
-      "notes": "",
+      "patientId": "0121",
       "appointmentId": "ba861f40-cb99-43c6-af8f-05f82bcd9508",
       "patientName": "riya shah",
-      "createdAt": "2025-08-06T14:03:04.192Z"
+      "gender": "Female",
+      "age": "22",
+      "phone": "9876543690",
+      "address": "Dhanbad, Jharkhand",
+      "blood": "A+",
+      "date": "2025-08-12",
+      "time": "11:30 AM - 11:45 AM",
+      "patientImage": "/images/user.jpg",
+      "doctorImage": "/images/download2.jpg",
+      "createdAt": "2025-08-07T07:12:27.564Z"
     },
     {
-      "id": "ab21",
-      "medicineName": "Amoxicillin",
-      "dosage": "500mg",
-      "duration": "6 days",
-      "notes": "take after sleeping",
+      "id": "19ba",
+      "medicines": [
+        {
+          "medicineName": "Paracetamol",
+          "dosage": "500mg",
+          "duration": "7 days",
+          "notes": "after meal"
+        },
+        {
+          "medicineName": "Ibuprofen",
+          "dosage": "200mg",
+          "duration": "3 days",
+          "notes": ""
+        }
+      ],
+      "gender": "Male",
+      "age": "24",
+      "phone": "6425957790",
+      "address": "pune",
+      "blood": "O-",
+      "date": "2025-09-03",
+      "time": "1:00 PM - 1:30 PM",
+      "diagnosis": "head ache",
+      "doctorImage": "/images/download2.jpg",
+      "patientId": "0121",
       "doctorId": "680",
       "appointmentId": "3becae93-79c0-41ee-98f4-73ccce14fa65",
       "patientName": "Alice Andrew",
-      "createdAt": "2025-08-06T16:52:31.856Z"
-    },
-    {
-      "id": "365f",
-      "medicineName": "Amoxicillin",
-      "dosage": "500mg",
-      "duration": "7 days",
-      "notes": "after lunch",
-      "doctorId": "680",
-      "appointmentId": "ba861f40-cb99-43c6-af8f-05f82bcd9508",
-      "patientName": "riya shah",
-      "createdAt": "2025-08-06T17:43:36.153Z"
-    },
-    {
-      "id": "e13e",
-      "medicineName": "Metformin",
-      "dosage": "500mg",
-      "duration": "10 days",
-      "notes": "",
-      "doctorId": "680",
-      "appointmentId": "ba861f40-cb99-43c6-af8f-05f82bcd9508",
-      "patientName": "riya shah",
-      "createdAt": "2025-08-06T19:06:08.947Z"
+      "createdAt": "2025-08-08T05:15:23.930Z"
     }
   ]
 }
