@@ -669,8 +669,15 @@
           "medicineName": "Paracetamol",
           "dosage": "500mg",
           "duration": "7 days",
-          "interval": "twice in a day",
+          "interval": "once in a day",
           "notes": "after meal "
+        },
+        {
+          "medicineName": "amoxicillin",
+          "dosage": "200mg",
+          "duration": "3 days",
+          "interval": "once in a day",
+          "notes": "after lunch"
         }
       ],
       "gender": "Female",
